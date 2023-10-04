@@ -1,6 +1,15 @@
-fun main() {
-    println("Hello World!")
-
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running a
+fun main (){
+    var i =10
+//    println(i++)
+//    println(i)
+//    println(i++)
+//    println(i)
+//    println(++i)
+//    println(i)
+//    println(--i)
+//    println(i--)
+//    println(i)
+    println(++i + i++)
+    println(i)
+    println(i)
 }
