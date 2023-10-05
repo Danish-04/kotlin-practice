@@ -1,11 +1,11 @@
 fun main(){
    val student="Aman"
 
-    when(student){
-        "Aman" -> println("Student is Aman")
-        "Deepak" -> println("Student is Deepak")
-        "Sidhant" -> println("Student is Sidhant")
-        else -> println("Student is Danish")
+    val result = when(student){
+        "Aman" -> "Student is Aman"
+        "Deepak" -> "Student is Deepak"
+        "Sidhant" -> "Student is Sidhant"
+        else -> "Student is Danish"
     }
-
+println(result)
 }
